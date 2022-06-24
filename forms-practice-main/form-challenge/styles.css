@@ -1,0 +1,94 @@
+body {
+  background-color: #edf9fe;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 700;
+}
+
+form {
+  background-color: #f5f8ff;
+  border-radius: 6px;
+  width: 30rem;
+  margin: 1rem auto;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0 , 0.2);
+  border-radius: 6px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+label {
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  display: block;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  font: inherit;
+  border: 1px solid rgb(204, 202, 202);
+  padding: 0.25rem;
+  color: rgb(61, 58, 58);
+  border-radius: 3px;
+}
+textarea {
+  resize: vertical;
+}
+
+input:focus,
+textarea:focus {
+  background-color: #d5ddf6;
+  border: 1px solid #3c4a93;
+  border-radius: 3px;
+}
+
+.inline-form {
+  display: flex;
+}
+
+.inline-form input {
+  width: auto;
+  margin-right: 0.5rem;
+}
+
+#buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+button {
+  background-color: #313958;
+  color: #edf9fe;
+  padding: 0.5rem 1rem;
+  border: 1px solid #313958;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.clearBtn {
+  color: #313958;
+  background-color: #edf9fe;
+  margin-right: 0.5rem;
+}
+.clearBtn:hover {
+  background-color: #CACDDD;
+}
+.submitBtn:hover {
+background-color: #404C70;
+}
+/*
+highlight: #D5DDF6
+border: #7591C4
+button: #313958
+*/

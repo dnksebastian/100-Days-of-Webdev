@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-practice",
+  "version": "1.0.0",
+  "description": "Getting started with Node & Express",
+  "main": "app.js",
+  "scripts": {
+  "start": "nodemon app.js"
+  },
+  "author": "Sebastian",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
